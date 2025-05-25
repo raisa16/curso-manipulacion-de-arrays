@@ -16,4 +16,4 @@ console.log('new', newArray);
    
 }
 
-console.log(multiplyElements([1,2,3,4]);)
+console.log(multiplyElements([1,2,3,4]));
