@@ -42,3 +42,31 @@ const rta3 = orders.map(item => {
 });
 console.log('rta3', rta3)
 console.log('original3', orders)
+
+array = [
+ {
+  "name": "Product 1",
+  "price": 1000,
+  "stock": 10
+ },
+ {
+  "name": "Product 2",
+  "price": 2000,
+  "stock": 20
+ }
+]
+  // Tu código aquí 👈
+ function addNewAttr(array) {
+  // Tu código aquí 👈
+  let addTax = array.map(item => {
+    let tax = Math.floor(item.price * .19)
+    return {
+      ...item,
+      taxes: tax
+    }
+  })
+  return addTax
+}
+
+  console.log( addNewAttr(array))
+  
