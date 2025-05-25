@@ -8,3 +8,12 @@ const newArray = letters.map(item => item + '++')
 //}
 console.log('original', letters);
 console.log('new', newArray);
+
+ function multiplyElements(array) {
+   // Tu código aquí 👈
+   let multi =array.map(element => element*2)
+   return multi
+   
+}
+
+console.log(multiplyElements([1,2,3,4]);)
